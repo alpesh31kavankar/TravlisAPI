@@ -364,6 +364,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginCodeController.cs" />
     <Compile Include="Controllers\ServiceController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Controllers\TripController.cs" />
     <Compile Include="Controllers\TripTypeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -377,9 +378,10 @@
     <Compile Include="DAL\GalleryDAL.cs" />
     <Compile Include="DAL\LoginCodeDAL.cs" />
     <Compile Include="DAL\ServiceDAL.cs" />
+    <Compile Include="DAL\StudentDAL.cs" />
     <Compile Include="DAL\TripDAL.cs" />
     <Compile Include="DAL\TripTypeDAL.cs" />
-    <Compile Include="DAL\VendorDAl.cs" />
+    <Compile Include="DAL\VendorDAL.cs" />
     <Compile Include="DAL\VendorServiceDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -392,6 +394,7 @@
     <Compile Include="Models\Gallery.cs" />
     <Compile Include="Models\LoginCode.cs" />
     <Compile Include="Models\Service.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Models\Trip.cs" />
     <Compile Include="Models\TripType.cs" />
     <Compile Include="Models\Vendor.cs" />

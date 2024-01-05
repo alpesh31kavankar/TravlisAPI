@@ -9,9 +9,9 @@ using PrismAPI.Models;
 using PrismAPI.DAL;
 using System.Data.Common;
 
-namespace PrismAPI.DAL
+namespace PrismAPI.DAL   
 {
-    public class VendorDAL
+    public class VendorDAL 
     {
         DbConnection conn = null;
         public VendorDAL()
